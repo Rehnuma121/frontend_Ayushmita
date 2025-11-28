@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 const headerNavJson = [
   {
     id: 1,
-    url: "/find-doctors",
+    url: "/",
     status: "active",
     image: "",
     is_include_top_nav: true,
@@ -26,7 +26,7 @@ const headerNavJson = [
   },
   {
     id: 2,
-    url: "/hospitals",
+    url: "/",
     status: "active",
     image: "",
     is_include_top_nav: true,
@@ -41,12 +41,12 @@ const headerNavJson = [
   },
   {
     id: 3,
-    url: "/medicines",
+    url: "/treatment",
     status: "active",
     image: "",
     is_include_top_nav: true,
     translations: {
-      en: "Medicines",
+      en: "Treatment",
       fr: "Médicaments",
       de: "Medikamente",
       es: "Medicamentos",
@@ -56,7 +56,7 @@ const headerNavJson = [
   },
   {
     id: 4,
-    url: "/surgeries",
+    url: "/",
     status: "active",
     image: "",
     is_include_top_nav: true,
@@ -71,7 +71,7 @@ const headerNavJson = [
   },
   {
     id: 6,
-    url: "/test-category",
+    url: "/",
     status: "active",
     image: "",
     is_include_top_nav: true,
@@ -86,7 +86,7 @@ const headerNavJson = [
   },
   {
     id: 5,
-    url: "/facilities",
+    url: "/",
     status: "active",
     image: "",
     is_include_top_nav: true,

@@ -13,7 +13,7 @@
 //         <section className="py-12 md:py-20 bg-white">
 //             <div className="max-w-7xl mx-auto px-6">
 
-              
+
 
 //                 {/* Heading */}
 //                 <div className=" text-center">
@@ -74,30 +74,30 @@ const MedicalTourism: React.FC = () => {
         <div className="text-center">
           <h2 className=" md:text-4xl"
             style={{
-    fontFamily: 'Ubuntu',
-    fontWeight: 700,          
-    fontStyle: 'normal',
-    fontSize: '32px',
-    lineHeight: '100%',
-    letterSpacing: '0%',
-    textAlign: 'center', 
-    color: '#333333',     
-  }}
-  >
+              fontFamily: 'Ubuntu',
+              fontWeight: 700,
+              fontStyle: 'normal',
+              fontSize: '32px',
+              lineHeight: '100%',
+              letterSpacing: '0%',
+              textAlign: 'center',
+              color: '#333333',
+            }}
+          >
             Top Medical Tourism
           </h2>
-    <p
-  className="mt-4 text-center"
-  style={{
-    fontFamily: 'Ubuntu',
-    fontWeight: 400,
-    fontStyle: 'normal',     
-    fontSize: '16px',
-    lineHeight: '100%',
-    letterSpacing: '0%',
-   
-  }}
->
+          <p
+            className="mt-4 text-center"
+            style={{
+              fontFamily: 'Ubuntu',
+              fontWeight: 400,
+              fontStyle: 'normal',
+              fontSize: '16px',
+              lineHeight: '100%',
+              letterSpacing: '0%',
+
+            }}
+          >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -125,15 +125,15 @@ const MedicalTourism: React.FC = () => {
                   />
                 </div>
                 <span className="c.name" style={{
-    fontFamily: 'Ubuntu',
-    fontWeight: 400,          // Regular weight
-    fontStyle: 'normal',      // Regular corresponds to normal
-    fontSize: '14px',
-    lineHeight: '100%',
-    letterSpacing: '0%',
-    textAlign: 'center',
-    // leading-trim is not standard CSS, so it's ignored
-  }}>
+                  fontFamily: 'Ubuntu',
+                  fontWeight: 400,          // Regular weight
+                  fontStyle: 'normal',      // Regular corresponds to normal
+                  fontSize: '14px',
+                  lineHeight: '100%',
+                  letterSpacing: '0%',
+                  textAlign: 'center',
+                  // leading-trim is not standard CSS, so it's ignored
+                }}>
                   {c.name}
                 </span>
               </button>
